@@ -3,7 +3,7 @@ from random import choice
 from time import sleep
 
 
-SLURS_COUNT = 100
+SLURS_COUNT = 10
 
 keyboard.wait('space')
 
@@ -15,4 +15,4 @@ slurs = ['ОЛЕГ', 'СУКА', 'БЛЯТЬ', 'ПИДОР', 'ЕБЛАН', 'ГА
 for i in range(SLURS_COUNT):
     keyboard.write(choice(slurs))
     keyboard.send('enter')
-    sleep(0.07)
+    sleep(0.05)
