@@ -25,3 +25,4 @@ while len(prime_list) != 500:
         prime_list.append(i)
     i+=1
 [print(f'{ind}. {i}') for ind, i in enumerate(prime_list, start=1)]
+print()
